@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MainMenu>
+  <Menu Text="用户中心" ImageUrl="~/res/orther_icon/user.png">
+    <Menu Text="个人设置" ImageUrl="~/res/icon/setting.png">
+      <Menu Text="用户信息" ImageUrl="~/res/orther_icon/edit-user.png" NavigateUrl="~/UserCenter/UserInfoEdit.aspx"></Menu>
+      <Menu Text="修改密码" ImageUrl="~/res/icon/key.png" NavigateUrl="~/UserCenter/ChangePwd.aspx"></Menu>
+    </Menu>
+  </Menu>
+  <Menu Text="人员管理" ImageUrl="~/res/icon/setting.png">
+    <Menu Text="部门管理" ImageUrl="~/res/icon/all-department-tree.png" NavigateUrl="~/SystemManage/DepartmentManage.aspx"></Menu>
+    <Menu Text="用户管理" ImageUrl="~/res/orther_icon/user--pencil.png" NavigateUrl="~/SystemManage/UserManage.aspx"></Menu>
+    <Menu Text="用户组管理" ImageUrl="~/res/icon/group.png" NavigateUrl="~/SystemManage/UserGroupManage.aspx"></Menu>
+  </Menu>
+  <Menu Text="系统管理" ImageUrl="~/res/icon/setting.png">
+    <Menu Text="路径管理" ImageUrl="~/res/icon/all-department-tree.png" NavigateUrl="~/SystemManage/DepartmentManage.aspx"></Menu>
+    <Menu Text="权限管理" ImageUrl="~/res/orther_icon/user--pencil.png" NavigateUrl="~/SystemManage/UserManage.aspx"></Menu>
+  </Menu>
+</MainMenu>
